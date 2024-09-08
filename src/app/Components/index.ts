@@ -1,0 +1,11 @@
+export { default as Header } from "./Header";
+export { default as Title } from "./Title";
+export { default as FourthSection } from "./FourthSection";
+export { default as ThirdSection } from "./ThirdSection";
+export { default as Footer } from "./Footer";
+export { default as FigureCard } from "./FigureCard";
+export { default as SecondSection } from "./SecondSection.tsx";
+export { default as DownloadBtn } from "./DownloadBtn";
+export { default as FirstSection } from "./FirstSection";
+export { default as CustomLink } from "./CustomLink";
+export { default as Card } from "./Card";

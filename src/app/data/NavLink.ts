@@ -1,15 +1,16 @@
 type links = {
   name: string;
+  href: string;
 };
 
 export const NavLink: links[] = [
-  { name: "Home" },
-  { name: "About " },
-  { name: "Features" },
-  { name: "Tokenomics" },
-  { name: "Roadmap" },
-  { name: "Team" },
-  { name: "Blog" },
-  { name: "FAQ" },
-  { name: "Contact Us" },
+  { name: "Home", href: "" },
+  { name: "About ", href: "" },
+  { name: "Features", href: "" },
+  { name: "Tokenomics", href: "" },
+  { name: "Roadmap", href: "" },
+  { name: "Team", href: "" },
+  { name: "Blog", href: "" },
+  { name: "FAQ", href: "" },
+  { name: "Contact Us", href: "" },
 ];

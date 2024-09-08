@@ -1,17 +1,25 @@
 import React from "react";
 import Header from "./Components/Header";
-import Discover from "./Components/Discover";
-import Figure from "./Components/Figure";
-import Footer from "./Components/Footer";
+import {
+  FirstSection,
+  SecondSection,
+  ThirdSection,
+  FourthSection,
+  Footer,
+} from "./Components";
 
 type Props = {};
 
 const page = (props: Props) => {
   return (
-    <div className=" text-black bg-[#010a36]">
-      <Header />
-      <Discover />
-      <Figure />
+    <div className="text-white bg-[#010a36] ">
+      <div className="   py-10 lg:px-[100px] px-[20px] grid gap-[100px]">
+        <Header />
+        <FirstSection />
+        <SecondSection />
+        <ThirdSection />
+        <FourthSection />
+      </div>
       <Footer />
     </div>
   );

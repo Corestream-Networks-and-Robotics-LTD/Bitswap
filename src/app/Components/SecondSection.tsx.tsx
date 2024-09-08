@@ -4,9 +4,9 @@ import FigureCard from "./FigureCard";
 
 type Props = {};
 
-const Figure = (props: Props) => {
+const SecondSection = (props: Props) => {
   return (
-    <div className="w-full px-[90px] flex justify-center gap-[50px] py-[100px]">
+    <div className="w-full grid grid-cols-1  md:grid-cols-3 justify-center gap-[80px] items-center ">
       {figures.map((fig, index) => (
         <FigureCard
           number={fig.figure}
@@ -20,4 +20,4 @@ const Figure = (props: Props) => {
   );
 };
 
-export default Figure;
+export default SecondSection;
